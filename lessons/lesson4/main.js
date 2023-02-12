@@ -108,13 +108,19 @@ function showInDocument(arr) {
 
 showInDocument(users2);
 // - створити функцію яка повертає найменьше число з масиву
-let number = [88, 33, 5, 8, 22, 564];
+let number = [88, 33, 5, 8, 22, 564, 6];
 
-function returnLessNumb(arr) {
-    return Math.min(...arr);
+function returnMinNumber(list) {
+    let min = list[0];
+    for (let i = 0; i < list.length; i++) {
+        if (list[i] < min) {
+            min = list[i];
+        }
+    }
+    return min;
 }
 
-console.log(returnLessNumb(number));
+console.log(returnMinNumber(number));
 
 // - створити функцію sum(arr)яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад sum([1,2,10]) //->13
 function sum(arr) {
@@ -129,11 +135,11 @@ console.log(sum(number));
 // - створити функцію swap(arr,index1,index2). Функція міняє місцями заняення у відаовідних індексах
 // Приклад  swap([11,22,33,44],0,1) //=> [22,11,33,44]
 function swap(arr, index1, index2) {
-    [index1, index2] = [index2, index1];
-    console.log(arr, index1, index2);
+    [arr[index1], arr[index2]] = [arr[index2], arr[index1]]
+    console.log(arr);
 }
 
-swap(1, 2, 3);
+swap([7, 9, 4, 8, 44, 26, 1, 3], 3, 7);
 // - Написати функцію обміну валюти exchange(sumUAH,currencyValues,exchangeCurrency)
 // Приклад exchange(10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD') // => 250
 function exchange(sumUAH, currencyValues, exchangeCurrency) {

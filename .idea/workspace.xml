@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eda9b903-7ca8-4f89-a743-1efb2a1e36f9" name="Changes" comment="lesson2">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dec-2022-js.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/lesson4/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/lesson4/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons/lesson3/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/lesson3/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/additional/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/additional/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons/lesson4/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/lesson4/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +55,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Пользователь\IdeaProjects\dec-2022-js\lessons" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -74,6 +75,7 @@
       <workItem from="1675867114888" duration="6260000" />
       <workItem from="1676109155339" duration="16313000" />
       <workItem from="1676146989365" duration="2839000" />
+      <workItem from="1676205115759" duration="9700000" />
     </task>
     <task id="LOCAL-00001" summary="lesson1">
       <created>1675265425547</created>
