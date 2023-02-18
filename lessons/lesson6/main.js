@@ -40,12 +40,17 @@ console.log(strNumb);
 //
 let nums = [11, 21, 3];
 
-function sortNums(arr, callback) {
+function sortNums(arr, direction) {
+    if (direction === 'ascending') {
+        nums.sort((a, b) => a - b)
+    } else if (direction === 'descending') {
+        nums.sort((a, b) => b - a)
+    }
     return console.log(arr);
 }
 
-sortNums(nums, nums.sort((a, b) => a - b));
-sortNums(nums, nums.sort((a, b) => b - a));
+sortNums(nums, 'ascending');
+sortNums(nums, 'descending');
 // ==========================
 // - є масив
 // let coursesAndDurationArray = [
@@ -167,6 +172,23 @@ console.log(deckOfCard.filter(item => {
 //     hearts:[],
 //     clubs:[]
 // }
+let suitObj = deckOfCard.reduce((accum, item) => {
+    switch (item.cardSuit) {
+        case('spade'):
+            accum.spades.push(item);
+            break;
+        case ('diamonds'):
+            accum.diamonds.push(item);
+            break;
+        case('hearts'):
+            accum.hearts.push(item);
+            break;
+        case('clubs'):
+            accum.clubs.push(item)
+    }
+    return accum
+}, {spades: [], diamonds: [], hearts: [], clubs: []});
+console.log(suitObj);
 // =========================
 //     взяти з arrays.js (який лежить в папці 2023 plan) масив coursesArray
 let coursesArray = [
