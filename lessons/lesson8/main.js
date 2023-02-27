@@ -78,32 +78,22 @@ function Car(model, maker, year, maxSpeed, engine) {
 Car.prototype.drive = function () {
     console.log(`їдемо зі швидкістю ${this.maxSpeed} на годину`);
 }
-let car = new Car('mazd', 'mazd', 33, 664, 94892);
-car.drive();
-
 // -- info () - яка виводить всю інформацію про автомобіль в форматі `назва поля - значення поля`
 Car.prototype.info = function () {
     console.log(`модель - ${this.model},виробник - ${this.maker},рік випуску - ${this.year},максимальна швидкість  - ${this.maxSpeed},об'єм двигуна - ${this.engine}`)
 }
-car.info()
 // -- increaseMaxSpeed (newSpeed) - яка підвищує значення максимальної швидкості на значення newSpeed
 Car.prototype.increaseMaxSpeed = function (newSpeed) {
     return this.maxSpeed = newSpeed;
 }
-car.increaseMaxSpeed(44);
-car.drive()
 // -- changeYear (newValue) - змінює рік випуску на значення newValue
 Car.prototype.changeYear = function (newValue) {
     return this.year = newValue;
 }
-car.changeYear(1);
-console.log(car);
 // -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car
 Car.prototype.addDriver = function (driver) {
     this.driver = driver
 }
-car.addDriver('nnn');
-console.log(car);
 //
 // - (Те саме, тільки через клас)
 // Створити клас який дозволяє створювати об'єкти car, з властивостями модель, виробник, рік випуску, максимальна швидкість, об'єм двигуна.
@@ -144,13 +134,6 @@ class Car2 {
         this.driver = driver
     }
 }
-
-let car2 = new Car2('ddzd', 'ddzd', 1, 22, 333);
-car2.drive()
-car2.info()
-car2.addDriver('jjj');
-console.log(car2);
-
 // -створити класс/функцію конструктор попелюшка з полями ім'я, вік, розмір ноги. Створити масив з 10 попелюшок.
 function Cinderella(name, age, footSize) {
     this.name = name;
