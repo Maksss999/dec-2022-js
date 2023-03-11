@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    let locationUrl = new URL(location.href)
+    let id = locationUrl.searchParams.get(`id`);
+    let urlInfoUser = new URL(`https://jsonplaceholder.typicode.com/users/${id}`)
+    fetch(urlInfoUser).then(value => value.json()).then(user => {
+        let div = document.createElement('div');
+        div.innerText =
+            `id:${user.id},
+             name:${user.name},
+             username:${user.username},
+             email:${user.email},
+             address:{
+              street:${user.address.street},
+              suite:${user.address.suite},
+              city:${user.address.city},
+              zipcode:${user.address.zipcode},
+             geo: {
+              lat:${user.address.geo.lat},
+              lng:${user.address.geo.lng}}
+             },
+             phone:${user.phone},
+             website:${user.website},
+             company: {
+             name:${user.company.name},
+             catchPhrase:${user.company.catchPhrase},
+             bs:${user.company.bs}
+        `;
+        document.body.appendChild(div);
+    })
+</script>
+</body>
+</html>

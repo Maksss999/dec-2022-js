@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eda9b903-7ca8-4f89-a743-1efb2a1e36f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lessons/lesson8/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/lesson8/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/mm/in.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons/mm/main.js" afterDir="false" />
+    <list default="true" id="eda9b903-7ca8-4f89-a743-1efb2a1e36f9" name="Changes" comment="lesson8">
+      <change afterPath="$PROJECT_DIR$/lessons/lesson10/lesson10.1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/lesson10/lesson10.1/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/lesson10/lesson10.2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/lesson10/lesson10.2/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/lesson12/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/lesson12/user-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/lesson12/users.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/lesson9/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons/lesson9/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lessons/additional/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lessons/additional/main.js" afterDir="false" />
     </list>
@@ -20,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -59,6 +64,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Пользователь\IdeaProjects\dec-2022-js\lessons\lesson10\lesson10.1" />
       <recent name="C:\Users\Пользователь\IdeaProjects\dec-2022-js\lessons" />
     </key>
   </component>
@@ -83,7 +89,15 @@
       <workItem from="1677095986925" duration="1644000" />
       <workItem from="1677318089129" duration="9171000" />
       <workItem from="1677402246539" duration="11262000" />
-      <workItem from="1677510540451" duration="2196000" />
+      <workItem from="1677510540451" duration="3294000" />
+      <workItem from="1677612804938" duration="466000" />
+      <workItem from="1677682594940" duration="9354000" />
+      <workItem from="1677922020454" duration="12070000" />
+      <workItem from="1677968763077" duration="5093000" />
+      <workItem from="1678025135700" duration="3649000" />
+      <workItem from="1678201173414" duration="3023000" />
+      <workItem from="1678521960648" duration="6506000" />
+      <workItem from="1678528677832" duration="2702000" />
     </task>
     <task id="LOCAL-00001" summary="lesson1">
       <created>1675265425547</created>
@@ -127,7 +141,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676753247601</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="lesson6">
+      <created>1677512772252</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677512772252</updated>
+    </task>
+    <task id="LOCAL-00008" summary="lesson8">
+      <created>1677513072410</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677513072410</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +165,7 @@
     <MESSAGE value="lesson1" />
     <MESSAGE value="lesson2" />
     <MESSAGE value="lesson6" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson6" />
+    <MESSAGE value="lesson8" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson8" />
   </component>
 </project>
